@@ -4,4 +4,5 @@
 '''
 git checkout -b <el nombre de tu rama>
 '''
-# Holis
+# Hola
+Añadimos el carousel a la pagina
