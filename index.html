@@ -20,7 +20,7 @@
     <nav class="navbar fixed-top">
 	    <div class="container">
 	    	<a class="navbar-brand" href="#">
-				<img src="images/logo-Tedx.png" alt="" class="img-fluid">
+				<img src="images/logo-Tedx.png" alt="" class="img-fluid mt-3" width="300">
 			</a>
 			<div class="dropdown">
 				<button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,7 +30,7 @@
 				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 					<a class="dropdown-item" href="#">Quienes somos</a>
 					<a class="dropdown-item" href="#">Servicios</a>
-					<a class="dropdown-item" href="#">Contaácto Tedx LM</a>
+					<a class="dropdown-item" href="#">Contácto Tedx LM</a>
 				</div>
 			</div>
 	    </div>
@@ -57,7 +57,7 @@
 	</section>
 
 	<!-- QUIENES SOMOS -->
-	<section class="q-somos p-5">
+	<section class="q-somos pt-5 pb-5">
 		<div class="container">
 			<h1 class="t-light text-center">Quienes somos</h1>
 			<p class="tedx text-center"><span class="red">x</span> = independently organized TED event</p>
@@ -70,6 +70,7 @@
 				que provoquen conversación, debate, sinergías y acciones. Durante el evento 
 				se combinan charlas TED con oradores en vivo de la misma comunidad e invitados.</p>
 		</div>
+		<img src="images/barra-negra.png" alt="" class="mt-5" width="100%">
 	</section>
 
 	<!-- BANNER -->
@@ -77,6 +78,19 @@
 		<h1 class="text-center">Ideas, experiencias, cambio</h1>
 	</section>
 
+	<!-- INFO -->
+	<section class="info pt-5 pb-5">
+		<div class="container">
+			<p class="m-0 text-justify">Es un evento que reúne ideas valiosas e innovadoras que se presentan
+				a través de charlas sobre temas diversos, reuniendo a una audiencia en 
+				una experiencia similar al formato TED. La "x" significa que es un evento
+				independiente , organizado por los propios miembros de la comunidadde 
+				forma voluntaria y sin fines de lucro.</p>
+			<p class="m-0 text-justify">Es espíritu de los eventos TEDx es "transmitir ideas que merecen difundirse"
+				que provoquen conversación, debate, sinergías y acciones. Durante el evento 
+				se combinan charlas TED con oradores en vivo de la misma comunidad e invitados.</p>
+		</div>
+	</section>
 	<!-- JAVASCRIPT -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -87,7 +101,7 @@
 		$('.owl-carousel').owlCarousel({
 			loop:true,
 			dots: false,
-			autoplay:false,
+			autoplay:true,
 			autoplayTimeout: 3000,
 			items: 1
 		})
