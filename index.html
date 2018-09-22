@@ -17,36 +17,82 @@
 	<body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar fixed-top">
 	    <div class="container">
-	    	<a class="navbar-brand" href="#">START</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarResponsive">
-			    <ul class="navbar-nav ml-auto">
-				    <li class="nav-item active">
-				    	<a class="nav-link" href="#">Inicio</a>
-				    </li>
-				    <li class="nav-item">
-				    	<a class="nav-link" href="#">Sobre Nosotros</a>
-				    </li>
-				    <li class="nav-item">
-				    	<a class="nav-link" href="#">Servicios</a>
-				    </li>
-				    <li class="nav-item">
-				    	<a class="nav-link" href="#">Contacto</a>
-				    </li>
-			    </ul>
-		    </div>
+	    	<a class="navbar-brand" href="#">
+				<img src="images/logo-Tedx.png" alt="" class="img-fluid">
+			</a>
+			<div class="dropdown">
+				<button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Menu
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="#">Quienes somos</a>
+					<a class="dropdown-item" href="#">Servicios</a>
+					<a class="dropdown-item" href="#">Contaácto Tedx LM</a>
+				</div>
+			</div>
 	    </div>
     </nav>
+
+	<!-- HEADER CAROUSEL -->
+	<section class="carousel-header">
+		<div class="owl-carousel owl-theme">
+			<div class="item-1 d-flex flex-column justify-content-center">
+				<div class="container">
+					<h1 class="t-1">Ideas dignas <br>
+					de difundir</h1>
+					<h1 class="t-2">Ideas worth spreading</h1>
+				</div>
+			</div>
+			<div class="item-2 d-flex flex-column justify-content-center">
+				<div class="container">
+					<h1 class="t-1">Ideas dignas <br>
+					de difundir</h1>
+					<h1 class="t-2">Ideas worth spreading</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- QUIENES SOMOS -->
+	<section class="q-somos p-5">
+		<div class="container">
+			<h1 class="t-light text-center">Quienes somos</h1>
+			<p class="tedx text-center"><span class="red">x</span> = independently organized TED event</p>
+			<p class="m-0 text-justify">Es un evento que reúne ideas valiosas e innovadoras que se presentan
+				a través de charlas sobre temas diversos, reuniendo a una audiencia en 
+				una experiencia similar al formato TED. La "x" significa que es un evento
+				independiente , organizado por los propios miembros de la comunidadde 
+				forma voluntaria y sin fines de lucro.</p>
+			<p class="m-0 text-justify">Es espíritu de los eventos TEDx es "transmitir ideas que merecen difundirse"
+				que provoquen conversación, debate, sinergías y acciones. Durante el evento 
+				se combinan charlas TED con oradores en vivo de la misma comunidad e invitados.</p>
+		</div>
+	</section>
+
+	<!-- BANNER -->
+	<section class="banner">
+		<h1 class="text-center">Ideas, experiencias, cambio</h1>
+	</section>
 
 	<!-- JAVASCRIPT -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
 
+	<script>
+
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			dots: false,
+			autoplay:false,
+			autoplayTimeout: 3000,
+			items: 1
+		})
+
+	</script>
 	</body>
 
 </html>

@@ -1,0 +1,109 @@
+/* CSS NAVBAR */
+.navbar{
+    background: transparent!important;
+}
+.navbar .dropdown .btn{
+    background: transparent;
+    border-color: transparent;
+}
+.navbar .dropdown .btn:focus{
+    box-shadow: none;
+}
+.navbar .dropdown .dropdown-menu{
+    background: rgba(66, 54, 54, 0.411);
+    border: none;
+}
+.navbar .dropdown .dropdown-menu a{
+    color: #fff;
+    font-size: 12px;
+    transition: all .3s ease-in-out;
+}
+.navbar .btn-secondary:not(:disabled):not(.disabled):active{
+    border: transparent;
+    background: transparent;
+}
+.navbar .dropdown .dropdown-menu a:hover{
+    background: #1d100c;
+}
+
+/* CSS HEADER CAROUSEL */
+.carousel-header{
+    height: 950px;
+}
+.carousel-header .item-1{
+    background: url('../images/auditorio.jpg') no-repeat center;
+    background-size: cover;
+    height: 950px;
+    color: #fff;
+}
+.carousel-header .item-2{
+    background: url('../images/mochis\ torre.jpg') no-repeat center;
+    background-size: cover;
+    height: 950px;
+    color: #fff;
+}
+.carousel-header .item-1 .t-1,
+.carousel-header .item-2 .t-1{
+    font-size: 120px;
+    font-weight: 700;
+}
+.carousel-header .item-1 .t-2,
+.carousel-header .item-2 .t-2{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+/* CSS QUIENES SOMOS */
+.q-somos .t-light{
+    font-weight: 100;
+    font-size: 50px;
+}
+.q-somos .tedx{
+    font-weight: 700;
+    font-size: 25px;
+}
+.q-somos .tedx .red{
+    color: #dd0209;
+}
+
+/* CSS BANNER */
+.banner{
+    background: url('../images/focos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.banner h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media(max-width: 510px){
+    .navbar .navbar-brand img{
+        width: 200px;
+    }
+    .carousel-header .item-1{
+        height: 480px;
+    }
+    .carousel-header .item-2{
+        height: 480px;
+    }
+    .carousel-header .item-1 .t-1,
+    .carousel-header .item-2 .t-1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .carousel-header .item-1 .t-2,
+    .carousel-header .item-2 .t-2{
+        font-size: 30px;
+        font-weight: 100;
+    }
+}
+@media(max-width: 340px){
+    .navbar .navbar-brand img{
+        width: 150px;
+    }  
+}
