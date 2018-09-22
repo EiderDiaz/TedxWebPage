@@ -78,10 +78,24 @@
   font-size: 70px;
   color: #fff; }
 
+/* CSS INFO */
+.info .t-light {
+  font-weight: 100;
+  font-size: 50px; }
+
+/* CSS CONTACTO */
+.contacto {
+  background: url("../images/x-fondo-negro.png") center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /* RESPONSIVE */
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
     width: 200px; }
+
+  .carousel-header {
+    height: 480px; }
 
   .carousel-header .item-1 {
     height: 480px; }
@@ -97,7 +111,10 @@
   .carousel-header .item-1 .t-2,
   .carousel-header .item-2 .t-2 {
     font-size: 30px;
-    font-weight: 100; } }
+    font-weight: 100; }
+
+  .banner h1 {
+    font-size: 50px; } }
 @media (max-width: 340px) {
   .navbar .navbar-brand img {
     width: 150px; } }
