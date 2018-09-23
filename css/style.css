@@ -89,6 +89,20 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+.contacto .col-sm-8 .t-light{
+  color: #fff;
+}
+.contacto .col-sm-8 h3{
+  line-height: 10px;
+}
+.contacto .col-sm-8 h6{
+  line-height: 100%;
+}
+
+.contacto .col-sm-8 h6 b{
+  font-size: 110%;
+}
+
 /* RESPONSIVE */
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
