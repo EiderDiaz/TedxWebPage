@@ -103,6 +103,19 @@
   font-size: 110%;
 }
 
+/* CSS footer */
+.footer {
+  margin-top: 70px;
+}
+
+.footer .col-md-4 .list-inline-item i{
+  font-size:25px;
+  color:#333333;
+}
+.footer .col-md-6 p{
+  line-height: 24px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
