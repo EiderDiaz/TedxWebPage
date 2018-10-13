@@ -1,14 +1,27 @@
 /* CSS NAVBAR */
 .navbar {
-  background: transparent !important; }
+  background: transparent !important;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75); }
 
 .navbar .dropdown .btn {
   background: transparent;
   border-color: transparent; }
 
+.navbar .img-black {
+  display: none; }
+
 .navbar .dropdown .btn:focus {
   -webkit-box-shadow: none;
           box-shadow: none; }
+
+.navbar .dropdown .dropdown-menu {
+  left: -60px !important; }
 
 .navbar .dropdown .dropdown-menu {
   background: rgba(66, 54, 54, 0.411);
@@ -40,18 +53,25 @@
 .carousel-header .item-2 {
   background: url("../images/mochis torre.jpg") no-repeat center;
   background-size: cover;
-  height: 950px;
+  height: 950px; }
+
+/* CSS CONT CAROUSEL*/
+.cont-car {
+  top: 0;
+  z-index: 3;
+  height: 950px; }
+
+.cont-car .t-1,
+.cont-car .t-1 {
+  font-size: 120px;
+  font-weight: 700;
   color: #fff; }
 
-.carousel-header .item-1 .t-1,
-.carousel-header .item-2 .t-1 {
-  font-size: 120px;
-  font-weight: 700; }
-
-.carousel-header .item-1 .t-2,
-.carousel-header .item-2 .t-2 {
+.cont-car .t-2,
+.cont-car .t-2 {
   font-size: 50px;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #fff; }
 
 /* CSS QUIENES SOMOS */
 .q-somos .t-light {
@@ -89,34 +109,19 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.contacto .col-sm-8 .t-light{
-  color: #fff;
-}
-.contacto .col-sm-8 h3{
-  line-height: 10px;
-}
-.contacto .col-sm-8 h6{
-  line-height: 100%;
-}
-
-.contacto .col-sm-8 h6 b{
-  font-size: 110%;
-}
-
-/* CSS footer */
-.footer {
-  margin-top: 70px;
-}
-
-.footer .col-md-4 .list-inline-item i{
-  font-size:25px;
-  color:#333333;
-}
-.footer .col-md-6 p{
-  line-height: 24px;
-}
+.contacto h1,
+.contacto h3,
+.contacto h6 {
+  color: #fff; }
 
 /* RESPONSIVE */
+@media (max-width: 810px) {
+  .navbar .dropdown .dropdown-menu {
+    left: -130px !important; } }
+@media (max-width: 768px) {
+  .footer p,
+  .footer ul {
+    text-align: center !important; } }
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
     width: 200px; }
@@ -130,18 +135,43 @@
   .carousel-header .item-2 {
     height: 480px; }
 
-  .carousel-header .item-1 .t-1,
-  .carousel-header .item-2 .t-1 {
+  .cont-car {
+    height: 480px; }
+
+  .cont-car .t-1,
+  .cont-car .t-1 {
     font-size: 50px;
     font-weight: 700; }
 
-  .carousel-header .item-1 .t-2,
-  .carousel-header .item-2 .t-2 {
+  .cont-car .t-2,
+  .cont-car .t-2 {
     font-size: 30px;
     font-weight: 100; }
 
+  .q-somos .t-light {
+    font-size: 40px; }
+
+  .q-somos .tedx {
+    font-size: 20px; }
+
+  .q-somos p.m-0 {
+    font-size: 15px; }
+
   .banner h1 {
-    font-size: 50px; } }
+    font-size: 40px; }
+
+  .info p {
+    font-size: 15px; }
+
+  .contacto h1 {
+    line-height: 35px;
+    margin-top: 45px; }
+
+  .contacto h3 {
+    margin-top: 15px !important; }
+
+  .contacto img {
+    width: 250px; } }
 @media (max-width: 340px) {
   .navbar .navbar-brand img {
     width: 150px; } }
