@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/tedXtab.ico">
 
     <title>Tedx - Los Mochis</title>
 
@@ -29,9 +30,10 @@
 					<i class="fas fa-bars"></i>
 				</button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Quienes somos</a>
-                    <a class="dropdown-item" href="#">Servicios</a>
-                    <a class="dropdown-item" href="#">Contácto Tedx LM</a>
+                    <a class="dropdown-item smooth" onclick="scroll()"href="#q-somos">Quienes somos</a>
+                    <a class="dropdown-item smooth" href="#fecha">Fechas</a>
+                    <a class="dropdown-item" href="https://tedxlosmochis.boletia.com/">Adquiere tu boleto</a>
+                    <a class="dropdown-item smooth" href="#contacto" >Contácto Tedx LM</a>
                 </div>
             </div>
         </div>
@@ -56,7 +58,7 @@
     </section>
 
     <!-- QUIENES SOMOS -->
-    <section class="q-somos pt-5 pb-5">
+    <section class="q-somos pt-5 pb-5" id="q-somos">
         <div class="container">
             <h1 class="t-light text-center">Quienes somos</h1>
             <p class="tedx text-center"><span class="red">x</span> = independently organized TED event</p>
@@ -76,10 +78,8 @@
 
     <!-- INFO -->
     <section class="info pt-5 pb-5">
-        <div class="container">
-            <p class="m-0 text-justify">Es un evento que reúne ideas valiosas e innovadoras que se presentan a través de charlas sobre temas diversos, reuniendo a una audiencia en una experiencia similar al formato TED. La "x" significa que es un evento independiente , organizado
-                por los propios miembros de la comunidadde forma voluntaria y sin fines de lucro.</p>
-            <p class="m-0 text-justify">Es espíritu de los eventos TEDx es "transmitir ideas que merecen difundirse" que provoquen conversación, debate, sinergías y acciones. Durante el evento se combinan charlas TED con oradores en vivo de la misma comunidad e invitados.</p>
+        <div class="container" id="fecha">
+            <p class="m-0 text-justify">TED trasmite a los organizadores de TEDx las directrices generales para desarrollar dichos eventos pero estos, incluido el nuestro, TEDxLosMochis, son organizados de forma independiente.</p>
 
         </div>
     </section>
@@ -98,11 +98,9 @@
                         tedX<b>Los Mochis</b> Centro de Innovación y Educación <b>9:00</b>
                     </h6>
 
-                    <h3 class="t-light text-right mt-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">31/Octubre/2018</h3>
-                    <h6 class="t-light text-right wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
-                        tedX<b>Los Mochis</b> Centro de Innovación y Educación <b>9:00</b>
-                    </h6>
-
+					<button type="button" id="buy" onclick="location.href='https://tedxlosmochis.boletia.com/'" class="btn btn-danger mt-4 text-right wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
+                        Adquirir boleto
+					</button>
                 </div>
             </div>
         </div>
@@ -111,7 +109,7 @@
 
     <!-- FOOTER -->
     <footer class="footer pt-5 pb-4">
-        <div class="container">
+        <div class="container" id="contacto">
             <div class="row">
                 <div class="col-sm-12 col-md-8 ">
                     <p class="m-0 text-justify">Todos los derechos reservados ® TED</p>
@@ -171,6 +169,14 @@
                 }
             });
         });
+        
+        $('.smooth').click(function() {
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top
+    }, 1500);
+});
+        
     </script>
 
 </body>

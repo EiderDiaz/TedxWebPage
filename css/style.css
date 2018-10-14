@@ -109,6 +109,10 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+#buy{
+   float: right;
+}
+
 .contacto h1,
 .contacto h3,
 .contacto h6 {
