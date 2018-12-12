@@ -21,7 +21,7 @@
           box-shadow: none; }
 
 .navbar .dropdown .dropdown-menu {
-  left: -60px !important; }
+  left: -126px !important; }
 
 .navbar .dropdown .dropdown-menu {
   background: rgba(66, 54, 54, 0.411);
@@ -45,13 +45,24 @@
   height: 950px; }
 
 .carousel-header .item-1 {
-  background: url("../images/auditorio.jpg") no-repeat center;
+  background: url("../images/1.png") no-repeat center;
   background-size: cover;
   height: 950px;
   color: #fff; }
 
 .carousel-header .item-2 {
-  background: url("../images/mochis torre.jpg") no-repeat center;
+  background: url("../images/2.png") no-repeat center;
+  background-size: cover;
+  height: 950px; }
+
+.carousel-header .item-3 {
+  background: url("../images/3.png") no-repeat center;
+  background-size: cover;
+  height: 950px;
+  color: #fff; }
+
+.carousel-header .item-4 {
+  background: url("../images/4.jpg") no-repeat center;
   background-size: cover;
   height: 950px; }
 
@@ -65,13 +76,20 @@
 .cont-car .t-1 {
   font-size: 120px;
   font-weight: 700;
-  color: #fff; }
+  color: #fff;
+  line-height: 114px; }
 
 .cont-car .t-2,
 .cont-car .t-2 {
   font-size: 50px;
   font-weight: 100;
   color: #fff; }
+
+.cont-car .t-3 {
+  padding-top: 250px !important;
+  color: #fff;
+  position: absolute;
+  bottom: -194px; }
 
 /* CSS QUIENES SOMOS */
 .q-somos .t-light {
@@ -109,14 +127,143 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-#buy{
-   float: right;
-}
-
 .contacto h1,
 .contacto h3,
 .contacto h6 {
   color: #fff; }
+
+/* CSS ORGANIZADORES */
+.organizadores {
+  margin-top: 96px; }
+  .organizadores .titulo-organizadores {
+    font-weight: 700; }
+  .organizadores h2 {
+    font-size: 18px; }
+  .organizadores p {
+    font-weight: 700; }
+  .organizadores .btn-volver {
+    border-radius: 0;
+    color: #000;
+    background: transparent;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 0; }
+  .organizadores .btn-volver:hover {
+    background: #000;
+    color: #fff; }
+
+/* CSS PONENTES */
+.ponentes .titulo-ponentes {
+  font-weight: 100;
+  font-size: 50px; }
+.ponentes .title-patrocinadores {
+  color: #000 !important;
+  font-weight: 700; }
+.ponentes .ponente {
+  width: 50%; }
+  .ponentes .ponente .image-ponente {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover !important; }
+  .ponentes .ponente .pnt-1 {
+    background: url("../images/luis-daniel.png");
+    background-position: right !important; }
+  .ponentes .ponente .pnt-2 {
+    background: url("../images/Ayesha.png");
+    background-position: right !important; }
+  .ponentes .ponente .pnt-3 {
+    background: url("../images/Krishna.png"); }
+  .ponentes .ponente .pnt-4 {
+    background: url("../images/Hector-Serrano.png"); }
+  .ponentes .ponente .pnt-5 {
+    background: url("../images/Miguel-Angel.png"); }
+  .ponentes .ponente .pnt-6 {
+    background: url("../images/Gerardo-Lopez.png");
+    background-position: right !important; }
+  .ponentes .ponente .pnt-7 {
+    background: url("../images/Dylan.png"); }
+  .ponentes .ponente .modal-dialog {
+    max-width: 1000px; }
+  .ponentes .ponente #modalLuis .modal-body {
+    background: url("../images/luis-daniel.png"); }
+  .ponentes .ponente #modalAyesha .modal-body {
+    background: url("../images/Ayesha.png"); }
+  .ponentes .ponente #modalKrishna .modal-body {
+    background: url("../images/Krishna.png");
+    background-position-x: right !important; }
+  .ponentes .ponente #modalHector .modal-body {
+    background: url("../images/Hector-Serrano.png");
+    background-position: center; }
+  .ponentes .ponente #modalMiguel .modal-body {
+    background: url("../images/Miguel-Angel.png");
+    background-position-x: right !important; }
+  .ponentes .ponente #modalGerardo .modal-body {
+    background: url("../images/Gerardo-Lopez.png"); }
+  .ponentes .ponente #modalDylan .modal-body {
+    background: url("../images/Dylan.png");
+    background-position: center; }
+  .ponentes .ponente .modal-body {
+    background-size: cover !important;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .ponentes .ponente .modal-body .logo-expositor {
+      width: 130px;
+      bottom: 30px;
+      left: 42px; }
+    .ponentes .ponente .modal-body .logo-expositor-derecha {
+      width: 130px;
+      bottom: 30px;
+      right: 42px; }
+    .ponentes .ponente .modal-body .exp-nom {
+      font-size: 28px;
+      color: #000;
+      font-weight: 800;
+      line-height: 40px;
+      text-transform: uppercase; }
+    .ponentes .ponente .modal-body .uppers {
+      background: #000;
+      color: #fff; }
+    .ponentes .ponente .modal-body .info-exp {
+      font-weight: 400;
+      font-size: 11px;
+      max-width: 250px;
+      line-height: 15px; }
+  .ponentes .ponente h1 {
+    font-size: 30px;
+    color: #dd0209; }
+  .ponentes .ponente span {
+    margin-bottom: 10px; }
+  .ponentes .ponente .btn {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    width: 100px;
+    background: transparent;
+    border-radius: 0;
+    border-color: #1d100c;
+    color: #1d100c; }
+  .ponentes .ponente .btn:hover {
+    background: #1d100c;
+    color: #fff; }
+
+/* CSS PATROCINIOS */
+.patrocinios {
+  height: 700px;
+  background: url("../images/X.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; }
 
 /* RESPONSIVE */
 @media (max-width: 810px) {

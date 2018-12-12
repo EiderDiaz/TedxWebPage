@@ -23,15 +23,16 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo-Tedx.png" alt="" class="img-fluid mt-3 img-color" width="300">
-                <img src="images/logo-tedx-negro.png" alt="" class="img-fluid mt-3 img-black" width="300">
+                <img src="images/TED-negro.png" alt="" class="img-fluid mt-3 img-black" width="300">
             </a>
             <div class="dropdown">
                 <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-bars"></i>
+					<i class="fas fa-bars fa-lg"></i>
 				</button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item smooth" onclick="scroll()"href="#q-somos">Quienes somos</a>
                     <a class="dropdown-item smooth" href="#fecha">Fechas</a>
+                    <a class="dropdown-item smooth" href="organizadores.html">Organizadores</a>
                     <a class="dropdown-item" href="https://tedxlosmochis.boletia.com/">Adquiere tu boleto</a>
                     <a class="dropdown-item smooth" href="#contacto" >Contácto Tedx LM</a>
                 </div>
@@ -44,6 +45,8 @@
         <div class="owl-carousel owl-theme">
             <div class="item-1 d-flex flex-column justify-content-center"></div>
             <div class="item-2 d-flex flex-column justify-content-center"></div>
+            <div class="item-3 d-flex flex-column justify-content-center"></div>
+            <div class="item-4 d-flex flex-column justify-content-center"></div>
         </div>
     </section>
 
@@ -53,12 +56,13 @@
             <div class="container">
                 <h1 class="wow slideInLeft t-1">Ideas dignas <br> de difundir</h1>
                 <h1 class="wow fadeInDown t-2">Ideas worth spreading</h1>
+                <p class="wow fadeInDown t-3" id="q-somos">Los Mochis, Sinaloa.</p>
             </div>
         </div>
     </section>
 
     <!-- QUIENES SOMOS -->
-    <section class="q-somos pt-5 pb-5" id="q-somos">
+    <section class="q-somos pt-5 pb-5">
         <div class="container">
             <h1 class="t-light text-center">Quienes somos</h1>
             <p class="tedx text-center"><span class="red">x</span> = independently organized TED event</p>
@@ -78,24 +82,301 @@
 
     <!-- INFO -->
     <section class="info pt-5 pb-5">
-        <div class="container" id="fecha">
+        <div class="container">
             <p class="m-0 text-justify">TED trasmite a los organizadores de TEDx las directrices generales para desarrollar dichos eventos pero estos, incluido el nuestro, TEDxLosMochis, son organizados de forma independiente.</p>
 
         </div>
     </section>
+    
+    <!-- PONENTES -->
+    <section class="ponentes">
+        <div class="container">
+            <h1 class="text-center titulo-ponentes">Ponentes</h1>
+            <div class="row justify-content-between">
+                <div class="wow fadeInRight ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-1"></div>
+                    <h1>Luis Daniel Cordero Escobedo</h1>
+                    <span>Licenciado en Psicología</span>
+                    <a data-toggle="modal" data-target="#modalLuis" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalLuis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Luis Daniel Cordero Escobedo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-left">
+                                    <p class="exp-nom">Luis <br>
+                                    <span class="uppers">Daniel</span> <br> 
+                                    Cordero<br>
+                                    Escobedo</p>
+                                    <p class="info-exp text-justify">Licenciado en <strong>psicología</strong> experto en procesos 
+                                    digitales, coordinador de eventos masivos, 
+                                    promotor cultural y marketing psicológico. Un 
+                                    mochitense <strong>comprometido</strong> con fomentar el
+                                    arte y cultura de su ciudad de diferentes 
+                                    formas, creador de identidad para la ciudad y
+                                    comprometido en aprovechar al máximo las 
+                                    infraestructuras con las que la ciudad cuenta
+                                    para explotar al máximo su <strong>potencial.</strong></p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor-derecha">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInLeft ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-2"></div>
+                    <h1>Ayesha Peraza</h1>
+                    <span>Biotecnóloga</span>
+                    <a data-toggle="modal" data-target="#modalAyesha" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalAyesha" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ayesha Peraza</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-left">
+                                    <p class="exp-nom">
+                                    <span class="uppers">Ayesha</span> <br> 
+                                    Peraza<br></p>
+                                    <p class="info-exp text-justify">Biotecnóloga, mamá emprendedora, amante
+                                        de la ciencia y la educación. Creadora de <strong>"Nature Kids Mx"</strong> y 
+                                        <strong>"Cultiva Orgánico Mx"</strong> proyectos que buscan educar a los niños en temas
+                                        relacionados con la ciencia y sustentabilidad. <br>
+                                        La idea es inspirar a los niños a ser pequeños científicos con el súper poder de rescatar su
+                                        <strong>planeta.</strong>
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor-derecha">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInRight ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-3"></div>
+                    <h1>Krishna Daniela Valdez Ramirez</h1>
+                    <span>Pintora</span>
+                    <a data-toggle="modal" data-target="#modalKrishna" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalKrishna" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Krishna Daniela Valdez Ramirez</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body position-relative">
+                                <div class="container text-right">
+                                    <p class="exp-nom">
+                                    <span class="uppers">Krishna</span> <br> 
+                                    Daniela<br>
+                                    Valdez <br>
+                                    Ramírez</p>
+
+                                    <p class="info-exp text-justify float-right">Es una <strong>pintora mexicana</strong> que con tan solo 19
+                                        años a logrado romper las barreras que la vida le a propuesto, una de las <strong>jóvenes promesas</strong> del arte
+                                        en México, sus obras han sido galardonadas en todo el mundo en diferentes estacias como lo son en : <br>
+                                        <strong>Tokyo International Photo Awards Winners</strong> en <strong>2018.</strong> <br>
+                                        <strong>The Exposure Award Collection,</strong> Museo De Louvre. <br>
+                                        Por mencionar algunas de las exposiciones que ha realizado, sin mencionar la cantidad de conferencias y talleres que ha
+                                        impartido en todo el mundo divulgando su <strong>arte</strong>.
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInLeft ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-4"></div>
+                    <h1>Hector Serrano Castro</h1>
+                    <span>Ingeniero en Negocios Internacionales</span>
+                    <a data-toggle="modal" data-target="#modalHector" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalHector" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Hector Serrano Castro</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-right">
+                                    <p class="exp-nom">Hector <br>
+                                    <span class="uppers">Serrano</span> <br> 
+                                    Castro
+                                    </p>
+
+                                    <p class="info-exp text-justify float-right">Ingeniero en <strong>Negocios Internacionales,</strong> es un
+                                        sinaloense apasionado por la información y la divulgación, esto mismo lo llevó a crear <strong>Vicious.</strong> <br>
+                                        Una plataforma cuyo fin es compartir información periodistica, realizando entrevistas, conferencias y contenido en redes. Además 
+                                        de ser inversionista en <strong>agronegocios</strong> fomentando el amor, respeto y la libertad de los individuos.
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInRight ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-5"></div>
+                    <h1>Miguel Angel Vicente Renteria</h1>
+                    <span>Licenciado en Economía</span>
+                    <a data-toggle="modal" data-target="#modalMiguel" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalMiguel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Miguel Angel Vicente Renteria</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-right">
+                                    <p class="exp-nom">Miguel <br>
+                                    <span class="uppers">Ángel</span> <br> 
+                                    Vicente <br>
+                                    Renteria
+                                    </p>    
+                                    <p class="info-exp text-justify float-right"> Originario del estado de Sinaloa es un <strong>"Licenciado en Economía, Derecho"</strong> y 
+                                        actualmente es un asesor de <strong>asistencia legislativa</strong> para el congreso del estado de Sinaloa. Se autoconsidera un amante
+                                        del planeta pues su voluntario en <strong>greenpeace sinaloa</strong> lo avala, es encargado de promover diferentes iniciativas en el
+                                        congreso se Sinaloa para promover los <strong>derechos de las mujeres.</strong>
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInLeft ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-6"></div>
+                    <h1>Gerardo López Romero</h1>
+                    <span>Ingeniero en Diseño Digital</span>
+                    <a data-toggle="modal" data-target="#modalGerardo" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalGerardo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Gerardo López Romero</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-left">
+                                    <p class="exp-nom">Gerardo <br>
+                                    <span class="uppers">López</span> <br> 
+                                    Romero
+                                    </p>
+                                    <p class="info-exp text-justify"> <strong>Ingeniero en Diseño Digital,</strong> mastro en educación, neurocognición, aprendizaje y desarrollo 
+                                        humano. <strong>Especialista</strong> en diseño y desarrollo de proyectos educativos y museografía en las <strong>áreas culturales.</strong>
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor-derecha">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInRight ponente text-center d-flex flex-column align-items-center mb-5">
+                    <div class="image-ponente pnt-7"></div>
+                    <h1>Dylan Kenjiro</h1>
+                    <span>Músico</span>
+                    <a data-toggle="modal" data-target="#modalDylan" class="btn btn-primary">Ver más</a>
+                    <div class="modal fade" id="modalDylan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Dylan Kenjiro</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container text-right">
+                                    <p class="exp-nom">Dylan <br>
+                                    <span class="uppers">Kenjiro</span> <br> 
+                                    </p>
+                                    <p class="info-exp text-justify float-right"> <strong>Músico,cantante, productor, compositor, y creador de contenido en internet</strong> que 
+                                        su trabajo y pasión lo han llevado a participar en muchas colaboraciones con músicos nacionales e internacionales. <strong>Ganador</strong> del 
+                                        concurso nacional de canciones por los derechos de los niños de la <strong>UNICEF</strong>, Dylan se encuentra actualmente en grabaciones
+                                        de su primer material discográfico.
+                                    </p>
+                                </div>
+                                <img src="images/TED-blanco.png" class="img-fluid position-absolute logo-expositor">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInDown ponente text-center mb-5">
+                    <h1 class="title-patrocinadores text-left">Agradecemos a nuestros <br> patrocinadores</h1>
+                    <div class="d-flex flex-row align-items-center mt-5 wow fadeInRight">
+                        <img src="images/Logo-CIE.png" class="img-fluid ml-1" width="80">
+                        <img src="images/Logo-IMCA-IAP.png" class="img-fluid mx-3" width="80">
+                        <img src="images/cocacola.png" class="img-fluid mx-3" width="80">
+                        <img src="images/LogoSobredosisBlancoTransp.jpg" class="img-fluid mx-3" width="80">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PATROCINIOS -->
+    <!-- <section class="patrocinios">
+
+    </section> -->
 
     <!-- CONTACTO -->
-    <section class="contacto pt-5 pb-5">
+    <section class="contacto pt-5 pb-5" id="fecha">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="images/logo-tex-fondo-cerro.png" alt="" class="img-fluid">
+                    <img src="images/logo-grande-abajo.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-sm-8">
-                    <h1 class="t-light text-right wow fadeInDown">Proximas Fechas :</h1>
-                    <h3 class="t-light text-right mt-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">31/Octubre/2018</h3>
-                    <h6 class="t-light text-right wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
-                        tedX<b>Los Mochis</b> Centro de Innovación y Educación <b>9:00</b>
+                <div class="col-sm-8 text-right">
+                    <h1 class="t-light wow fadeInDown">Proximas Fechas :</h1>
+                    <h3 class="t-light mt-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">02/Marzo/2019</h3>
+                    <h6 class="t-light wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                        TedX <b>Los Mochis</b> Centro de Innovación y Educación <br> <b>9:00 p.m.</b>
                     </h6>
 
 					<button type="button" id="buy" onclick="location.href='https://tedxlosmochis.boletia.com/'" class="btn btn-danger mt-4 text-right wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
@@ -171,11 +452,11 @@
         });
         
         $('.smooth').click(function() {
-    var sectionTo = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(sectionTo).offset().top
-    }, 1500);
-});
+            var sectionTo = $(this).attr('href');
+            $('html, body').animate({
+            scrollTop: $(sectionTo).offset().top
+            }, 1500);
+        });
         
     </script>
 
