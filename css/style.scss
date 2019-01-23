@@ -1,401 +1,580 @@
 /* CSS NAVBAR */
 .navbar {
-    background: transparent!important;
-    transition: all .3s ease-in-out;
+  background: transparent !important;
+  transition: all 0.3s ease-in-out;
 }
-
+.navbar.orga .dropdown .fas {
+  color: #000;
+}
 .scrolled {
-    background-color: rgba(255, 255, 255, .9)!important;
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navbar .dropdown .btn {
-    background: transparent;
-    border-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
 .navbar .img-black {
-    display: none;
+  display: none;
 }
 
 .navbar .dropdown .btn:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar .dropdown .dropdown-menu {
-    left: -126px!important;
+  left: -126px !important;
 }
 
 .navbar .dropdown .dropdown-menu {
-    background: rgba(66, 54, 54, 0.411);
-    border: none;
+  background: rgba(66, 54, 54, 0.411);
+  border: none;
 }
 
 .navbar .dropdown .dropdown-menu a {
-    color: #fff;
-    font-size: 12px;
-    transition: all .3s ease-in-out;
+  color: #fff;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar .btn-secondary:not(:disabled):not(.disabled):active {
-    border: transparent;
-    background: transparent;
+  border: transparent;
+  background: transparent;
 }
 
 .navbar .dropdown .dropdown-menu a:hover {
-    background: #1d100c;
+  background: #1d100c;
 }
-
 
 /* CSS HEADER CAROUSEL */
 
 .carousel-header {
-    height: 950px;
+  height: 950px;
 }
 
 .carousel-header .item-1 {
-    background: url('../images/1.png') no-repeat center;
-    background-size: cover;
-    height: 950px;
-    color: #fff;
+  background: url("../images/1.png") no-repeat center;
+  background-size: cover;
+  height: 950px;
 }
 
 .carousel-header .item-2 {
-    background: url('../images/2.png') no-repeat center;
-    background-size: cover;
-    height: 950px;
+  background: url("../images/2.png") no-repeat center;
+  background-size: cover;
+  height: 950px;
 }
 .carousel-header .item-3 {
-    background: url('../images/3.png') no-repeat center;
-    background-size: cover;
-    height: 950px;
-    color: #fff;
+  background: url("../images/3.png") no-repeat center;
+  background-size: cover;
+  height: 950px;
 }
 
 .carousel-header .item-4 {
-    background: url('../images/4.jpg') no-repeat center;
-    background-size: cover;
-    height: 950px;
+  background: url("../images/4.jpg") no-repeat center;
+  background-size: cover;
+  height: 950px;
 }
-
 
 /* CSS CONT CAROUSEL*/
 
 .cont-car {
-    top: 0;
-    z-index: 3;
-    height: 950px;
+  top: 0;
+  z-index: 3;
+  height: 950px;
 }
 .cont-car .t-1,
 .cont-car .t-1 {
-    font-size: 120px;
-    font-weight: 700;
-    color: #fff;
-    line-height: 114px;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 114px;
 }
 
 .cont-car .t-2,
 .cont-car .t-2 {
-    font-size: 50px;
-    font-weight: 100;
-    color: #fff;
+  font-size: 50px;
+  font-weight: 100;
+  color: #fff;
 }
-.cont-car .t-3{
-    padding-top: 250px!important;
-    color: #fff;
-    position: absolute;
-    bottom: -194px;
+.cont-car .t-3 {
+  padding-top: 250px !important;
+  color: #fff;
+  position: absolute;
+  bottom: -194px;
 }
 
+.cont-car .shad {
+  text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
 /* CSS QUIENES SOMOS */
 
 .q-somos .t-light {
-    font-weight: 100;
-    font-size: 50px;
+  font-weight: 100;
+  font-size: 50px;
 }
 
 .q-somos .tedx {
-    font-weight: 700;
-    font-size: 25px;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .q-somos .tedx .red {
-    color: #dd0209;
+  color: #dd0209;
 }
-
 
 /* CSS BANNER */
 
 .banner {
-    background: url('../images/focos.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 150px;
-    padding-bottom: 150px;
+  background: url("../images/focos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .banner h1 {
-    font-size: 70px;
-    color: #fff;
+  font-size: 70px;
+  color: #fff;
 }
-
 
 /* CSS INFO */
 
 .info .t-light {
-    font-weight: 100;
-    font-size: 50px;
+  font-weight: 100;
+  font-size: 50px;
 }
-
 
 /* CSS CONTACTO */
 
 .contacto {
-    background: url('../images/x-fondo-negro.png') center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("../images/x-fondo-negro.png") center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contacto h1,
 .contacto h3,
 .contacto h6 {
-    color: #fff;
+  color: #fff;
 }
 
 /* CSS ORGANIZADORES */
-.organizadores{
-    margin-top: 96px;
-    .titulo-organizadores{
-        font-weight: 700;
+.organizadores {
+  position: relative;
+  background: url("../images/X.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-top: 96px;
+  .organizador {
+    margin-bottom: 50px;
+  }
+  .redes-org {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    bottom: 50%;
+    .fab {
+      color: #000;
+      transform: rotate(-90deg);
     }
-    h2{
-        font-size: 18px;
+  }
+  .titulo-organizadores {
+    font-weight: 700;
+  }
+  .titulos-organizador {
+    position: relative;
+    h2 {
+      margin: 0;
     }
-    p{
-        font-weight: 700;
+    .nombre {
+      font-weight: 600;
+      font-size: 24px;
     }
-    .btn-volver{
-        border-radius: 0;
-        color: #000;
-        background: transparent;
-        transition: all .3s ease-in-out;
-        border: 1px solid #000;
-        position: absolute;
-        bottom: 0;
+    .puesto {
+      font-weight: 700;
+      font-size: 16px;
     }
-    .btn-volver:hover{
-        background: #000;
-        color: #fff;
+    .edad {
+      font-weight: 600;
+      font-size: 25px;
     }
+    .carrera {
+      font-weight: 700;
+      font-size: 25px;
+    }
+  }
+  .titulos-organizador::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    border-radius: 50px;
+    height: 95%;
+    background: #dd0209;
+    left: -7px;
+    top: 5px;
+  }
+  .descripcion {
+    font-size: 14px !important;
+  }
+  .btn-volver {
+    border-radius: 0;
+    color: #000;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+  }
+  .btn-volver:hover {
+    background: #000;
+    color: #fff;
+  }
 }
 
+.footer.org {
+  display: none;
+}
+
+.btn-danger#buy {
+  background: #dd0209;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.btn-danger#buy:hover {
+  background: #fff;
+  color: #000;
+}
 /* CSS PONENTES */
-.ponentes{
-    .titulo-ponentes{
-        font-weight: 100;
-        font-size: 50px;
+.ponentes {
+  .titulo-ponentes {
+    font-weight: 100;
+    font-size: 50px;
+  }
+  .title-patrocinadores {
+    color: #000 !important;
+    font-weight: 700;
+  }
+  .patrocinios {
+    flex-wrap: wrap;
+  }
+  .ponente {
+    width: 50%;
+    .image-ponente {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-size: cover !important;
     }
-    .title-patrocinadores{
-        color: #000!important;
-        font-weight: 700;
+    .pnt-1 {
+      background: url("../images/Dylan.png");
     }
-    .ponente{
-        width: 50%;
-        .image-ponente{
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-size: cover!important;
-        }
-        .pnt-1{
-            background: url("../images/luis-daniel.png");
-            background-position: right !important;
-        }
-        .pnt-2{
-            background: url("../images/Ayesha.png");
-            background-position: right !important;
-        }
-        .pnt-3{
-            background: url("../images/Krishna.png");
-        }
-        .pnt-4{
-            background: url("../images/Hector-Serrano.png");
-        }
-        .pnt-5{
-            background: url("../images/Miguel-Angel.png");
-        }
-        .pnt-6{
-            background: url("../images/Gerardo-Lopez.png");
-            background-position: right!important;
-        }
-        .pnt-7{
-            background: url("../images/Dylan.png");
-        }
-        .modal-dialog{
-            max-width: 1000px;
-        }
-        #modalLuis .modal-body{
-            background: url("../images/luis-daniel.png");
-        }
-        #modalAyesha .modal-body{
-            background: url("../images/Ayesha.png");
-        }
-        #modalKrishna .modal-body{
-            background: url("../images/Krishna.png");
-            background-position-x: right!important;
-        }
-        #modalHector .modal-body{
-            background: url("../images/Hector-Serrano.png");
-            background-position: center;
-        }
-        #modalMiguel .modal-body{
-            background: url("../images/Miguel-Angel.png");
-            background-position-x: right!important;
-        }
-        #modalGerardo .modal-body{
-            background: url("../images/Gerardo-Lopez.png");
-        }
-        #modalDylan .modal-body{
-            background: url("../images/Dylan.png");
-            background-position: center;
-        }
-        .modal-body{
-            background-size: cover!important;
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            .logo-expositor{
-                width: 130px;
-                bottom: 30px;
-                left: 42px;
-            }
-            .logo-expositor-derecha{
-                width: 130px;
-                bottom: 30px;
-                right: 42px;
-            }
-            .exp-nom{
-                font-size: 28px;
-                color: #000;
-                font-weight: 800;
-                line-height: 40px;
-                text-transform: uppercase;
-            }
-            .uppers{
-                background: #000;
-                color: #fff;
-            }
-            .info-exp{
-                font-weight: 400;
-                font-size: 11px;
-                max-width: 250px;
-                line-height: 15px;
-            }
-        }
-        h1{
-            font-size: 30px;
-            color: #dd0209;
-        }
-        span{
-            margin-bottom: 10px;
-        }
-        .btn{
-            transition: all .3s ease-in-out;
-            width: 100px;
-            background: transparent;
-            border-radius: 0;
-            border-color: #1d100c;
-            color: #1d100c;
-        }
-        .btn:hover{
-            background: #1d100c;
-            color: #fff;
-        }
+    .pnt-2 {
+      background: url("../images/Ayesha.png");
+      background-position: right !important;
     }
+    .pnt-3 {
+      background: url("../images/gilberto-tedx.png");
+    }
+    .pnt-4 {
+      background: url("../images/Hector-Serrano.png");
+    }
+    .pnt-5 {
+      background: url("../images/stone-tedx.png");
+      background-position: right;
+    }
+    .pnt-6 {
+      background: url("../images/Krishna.png");
+    }
+    .pnt-7 {
+      background: url("../images/luis-daniel.png");
+      background-position: right !important;
+    }
+    .pnt-8 {
+      background: url("../images/mariela-tedx.png");
+      background-position: right;
+    }
+    .pnt-9 {
+      background: url("../images/Gerardo-Lopez.png");
+      background-position: right !important;
+    }
+    .pnt-10 {
+      background: url("../images/Ana-Tedx.png");
+    }
+    .pnt-11 {
+      background: url("../images/Miguel-Angel.png");
+    }
+    .pnt-12 {
+      background: url("../images/alejandro-tedx.png");
+    }
+    .pnt-13 {
+      background: url("../images/Mirna-Tedx.png");
+    }
+    h1 {
+      font-size: 30px;
+      color: #dd0209;
+    }
+    span {
+      margin-bottom: 10px;
+    }
+    .btn {
+      transition: all 0.3s ease-in-out;
+      width: 100px;
+      background: transparent;
+      border-radius: 0;
+      border-color: #1d100c;
+      color: #1d100c;
+    }
+    .btn:hover {
+      background: #1d100c;
+      color: #fff;
+    }
+  }
+}
+.modal-dialog {
+  max-width: 1000px;
+}
+#modalLuis .modal-body {
+  background: url("../images/luis-daniel.png");
+}
+#modalAyesha .modal-body {
+  background: url("../images/Ayesha.png");
+}
+#modalKrishna .modal-body {
+  background: url("../images/Krishna.png");
+  background-position-x: right !important;
+}
+#modalHector .modal-body {
+  background: url("../images/Hector-Serrano.png");
+  background-position: center;
+}
+#modalMiguel .modal-body {
+  background: url("../images/Miguel-Angel.png");
+  background-position-x: right !important;
+}
+#modalGerardo .modal-body {
+  background: url("../images/Gerardo-Lopez.png");
+}
+#modalDylan .modal-body {
+  background: url("../images/Dylan.png");
+  background-position: center;
+}
+#modalMirna .modal-body {
+  background: url("../images/Mirna-Tedx.png");
+  background-position: center;
+}
+#modalAlejandro .modal-body {
+  background: url("../images/alejandro-tedx.png");
+  background-position: center;
+}
+#modalAna .modal-body {
+  background: url("../images/Ana-Tedx.png");
+  background-position: center;
+}
+#modalGilberto .modal-body {
+  background: url("../images/gilberto-tedx.png");
+  background-position: center;
+}
+#modalMaria .modal-body {
+  background: url("../images/stone-tedx.png");
+  background-position: center;
+}
+#modalMariela .modal-body {
+  background: url("../images/mariela-tedx.png");
+  background-position: center;
+}
+.modal-body {
+  background-size: cover !important;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .logo-expositor {
+    width: 130px;
+    bottom: 30px;
+    left: 42px;
+  }
+  .logo-expositor-derecha {
+    width: 130px;
+    bottom: 30px;
+    right: 42px;
+  }
+  .exp-nom {
+    font-size: 28px;
+    color: #000;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  .uppers {
+    background: #000;
+    color: #fff;
+  }
+  .info-exp {
+    font-weight: 400;
+    font-size: 11px;
+    max-width: 250px;
+    line-height: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+  }
 }
 
 /* CSS PATROCINIOS */
-.patrocinios{
-    height: 700px;
-    background: url("../images/X.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
+// .patrocinios{
+//     height: 700px;
+//     background: url("../images/X.png");
+//     background-repeat: no-repeat;
+//     background-position: right;
+//     background-size: contain;
+// }
 
 /* RESPONSIVE */
-
-@media(max-width: 810px) {
-    .navbar .dropdown .dropdown-menu {
-        left: -130px!important;
-    }
+@media (max-width: 992px) {
+  .organizadores {
+    background-size: cover;
+    background-position: center;
+  }
 }
-
-@media(max-width: 768px) {
-    .footer p,
-    .footer ul {
-        text-align: center!important;
+@media (max-width: 768px) {
+  .footer p,
+  .footer ul {
+    text-align: center !important;
+  }
+  .ponente.agra {
+    h1 {
+      font-size: 20px;
     }
+    img {
+      width: 55px;
+    }
+  }
 }
-
-@media(max-width: 510px) {
-    .navbar .navbar-brand img {
-        width: 200px;
-    }
-    .carousel-header {
-        height: 480px;
-    }
-    .carousel-header .item-1 {
-        height: 480px;
-    }
-    .carousel-header .item-2 {
-        height: 480px;
-    }
-    .cont-car {
-        height: 480px;
-    }
-    .cont-car .t-1,
-    .cont-car .t-1 {
-        font-size: 50px;
-        font-weight: 700;
-    }
-    .cont-car .t-2,
-    .cont-car .t-2 {
-        font-size: 30px;
-        font-weight: 100;
-    }
-    .q-somos .t-light {
-        font-size: 40px;
-    }
-    .q-somos .tedx {
-        font-size: 20px;
-    }
-    .q-somos p.m-0 {
-        font-size: 15px;
-    }
-    .banner h1 {
-        font-size: 40px;
-    }
-    .info p {
-        font-size: 15px;
-    }
-    .contacto h1 {
-        line-height: 35px;
-        margin-top: 45px;
-    }
-    .contacto h3 {
-        margin-top: 15px!important;
-    }
-    .contacto img {
-        width: 250px;
-    }
+@media (max-width: 710px) {
+  #modalMirna .modal-body,
+  #modalAlejandro .modal-body,
+  #modalMiguel .modal-body,
+  #modalAna .modal-body,
+  #modalKrishna .modal-body,
+  #modalGilberto .modal-body,
+  #modalDylan .modal-body {
+    background-position-x: -203px !important;
+  }
+  #modalHector .modal-body {
+    background-position-x: -95px;
+  }
+  #modalGerardo .modal-body,
+  #modalLuis .modal-body {
+    background-position: -445px;
+  }
+  #modalMariela .modal-body {
+    background-position: -490px;
+  }
+  #modalMaria .modal-body {
+    background-position: -515px;
+  }
+  #modalAyesha .modal-body {
+    background-position: -485px;
+  }
 }
-
-@media(max-width: 340px) {
-    .navbar .navbar-brand img {
-        width: 150px;
+@media (max-width: 576px) {
+  .redes-org {
+    display: none;
+  }
+  .footer.org {
+    display: block;
+  }
+}
+@media (max-width: 510px) {
+  .navbar .navbar-brand img {
+    width: 200px;
+  }
+  .carousel-header {
+    height: 480px;
+  }
+  .carousel-header .item-1 {
+    height: 480px;
+  }
+  .carousel-header .item-2 {
+    height: 480px;
+  }
+  .carousel-header .item-3 {
+    height: 480px;
+  }
+  .carousel-header .item-4 {
+    height: 480px;
+  }
+  .cont-car {
+    height: 480px;
+  }
+  .cont-car .t-1,
+  .cont-car .t-1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .cont-car .t-2,
+  .cont-car .t-2 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .q-somos .t-light {
+    font-size: 40px;
+  }
+  .q-somos .tedx {
+    font-size: 20px;
+  }
+  .q-somos p.m-0 {
+    font-size: 15px;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .contacto h1 {
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  .contacto h3 {
+    margin-top: 15px !important;
+  }
+  .contacto img {
+    width: 250px;
+  }
+  .cont-car .t-1 {
+    line-height: 56px;
+  }
+  .cont-car .t-2 {
+    font-size: 25px;
+  }
+  .ponente.agra {
+    h1 {
+      font-size: 20px;
     }
+    img {
+      width: 40px;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .ponente.agra {
+    h1 {
+      font-size: 20px;
+    }
+    img {
+      width: 37px;
+    }
+  }
+}
+@media (max-width: 340px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
 }

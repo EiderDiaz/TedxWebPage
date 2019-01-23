@@ -1,8 +1,11 @@
 /* CSS NAVBAR */
 .navbar {
   background: transparent !important;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.navbar.orga .dropdown .fas {
+  color: #000; }
 
 .scrolled {
   background-color: rgba(255, 255, 255, 0.9) !important;
@@ -30,8 +33,8 @@
 .navbar .dropdown .dropdown-menu a {
   color: #fff;
   font-size: 12px;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
 
 .navbar .btn-secondary:not(:disabled):not(.disabled):active {
   border: transparent;
@@ -47,8 +50,7 @@
 .carousel-header .item-1 {
   background: url("../images/1.png") no-repeat center;
   background-size: cover;
-  height: 950px;
-  color: #fff; }
+  height: 950px; }
 
 .carousel-header .item-2 {
   background: url("../images/2.png") no-repeat center;
@@ -58,8 +60,7 @@
 .carousel-header .item-3 {
   background: url("../images/3.png") no-repeat center;
   background-size: cover;
-  height: 950px;
-  color: #fff; }
+  height: 950px; }
 
 .carousel-header .item-4 {
   background: url("../images/4.jpg") no-repeat center;
@@ -90,6 +91,9 @@
   color: #fff;
   position: absolute;
   bottom: -194px; }
+
+.cont-car .shad {
+  text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.5); }
 
 /* CSS QUIENES SOMOS */
 .q-somos .t-light {
@@ -134,25 +138,79 @@
 
 /* CSS ORGANIZADORES */
 .organizadores {
+  position: relative;
+  background: url("../images/X.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   margin-top: 96px; }
+  .organizadores .organizador {
+    margin-bottom: 50px; }
+  .organizadores .redes-org {
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    right: 0;
+    bottom: 50%; }
+    .organizadores .redes-org .fab {
+      color: #000;
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg); }
   .organizadores .titulo-organizadores {
     font-weight: 700; }
-  .organizadores h2 {
-    font-size: 18px; }
-  .organizadores p {
-    font-weight: 700; }
+  .organizadores .titulos-organizador {
+    position: relative; }
+    .organizadores .titulos-organizador h2 {
+      margin: 0; }
+    .organizadores .titulos-organizador .nombre {
+      font-weight: 600;
+      font-size: 24px; }
+    .organizadores .titulos-organizador .puesto {
+      font-weight: 700;
+      font-size: 16px; }
+    .organizadores .titulos-organizador .edad {
+      font-weight: 600;
+      font-size: 25px; }
+    .organizadores .titulos-organizador .carrera {
+      font-weight: 700;
+      font-size: 25px; }
+  .organizadores .titulos-organizador::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    border-radius: 50px;
+    height: 95%;
+    background: #dd0209;
+    left: -7px;
+    top: 5px; }
+  .organizadores .descripcion {
+    font-size: 14px !important; }
   .organizadores .btn-volver {
     border-radius: 0;
     color: #000;
     background: transparent;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border: 1px solid #000;
     position: absolute;
     bottom: 0; }
   .organizadores .btn-volver:hover {
     background: #000;
     color: #fff; }
+
+.footer.org {
+  display: none; }
+
+.btn-danger#buy {
+  background: #dd0209;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: none; }
+
+.btn-danger#buy:hover {
+  background: #fff;
+  color: #000; }
 
 /* CSS PONENTES */
 .ponentes .titulo-ponentes {
@@ -161,6 +219,9 @@
 .ponentes .title-patrocinadores {
   color: #000 !important;
   font-weight: 700; }
+.ponentes .patrocinios {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 .ponentes .ponente {
   width: 50%; }
   .ponentes .ponente .image-ponente {
@@ -169,85 +230,44 @@
     border-radius: 50%;
     background-size: cover !important; }
   .ponentes .ponente .pnt-1 {
-    background: url("../images/luis-daniel.png");
-    background-position: right !important; }
+    background: url("../images/Dylan.png"); }
   .ponentes .ponente .pnt-2 {
     background: url("../images/Ayesha.png");
     background-position: right !important; }
   .ponentes .ponente .pnt-3 {
-    background: url("../images/Krishna.png"); }
+    background: url("../images/gilberto-tedx.png"); }
   .ponentes .ponente .pnt-4 {
     background: url("../images/Hector-Serrano.png"); }
   .ponentes .ponente .pnt-5 {
-    background: url("../images/Miguel-Angel.png"); }
+    background: url("../images/stone-tedx.png");
+    background-position: right; }
   .ponentes .ponente .pnt-6 {
+    background: url("../images/Krishna.png"); }
+  .ponentes .ponente .pnt-7 {
+    background: url("../images/luis-daniel.png");
+    background-position: right !important; }
+  .ponentes .ponente .pnt-8 {
+    background: url("../images/mariela-tedx.png");
+    background-position: right; }
+  .ponentes .ponente .pnt-9 {
     background: url("../images/Gerardo-Lopez.png");
     background-position: right !important; }
-  .ponentes .ponente .pnt-7 {
-    background: url("../images/Dylan.png"); }
-  .ponentes .ponente .modal-dialog {
-    max-width: 1000px; }
-  .ponentes .ponente #modalLuis .modal-body {
-    background: url("../images/luis-daniel.png"); }
-  .ponentes .ponente #modalAyesha .modal-body {
-    background: url("../images/Ayesha.png"); }
-  .ponentes .ponente #modalKrishna .modal-body {
-    background: url("../images/Krishna.png");
-    background-position-x: right !important; }
-  .ponentes .ponente #modalHector .modal-body {
-    background: url("../images/Hector-Serrano.png");
-    background-position: center; }
-  .ponentes .ponente #modalMiguel .modal-body {
-    background: url("../images/Miguel-Angel.png");
-    background-position-x: right !important; }
-  .ponentes .ponente #modalGerardo .modal-body {
-    background: url("../images/Gerardo-Lopez.png"); }
-  .ponentes .ponente #modalDylan .modal-body {
-    background: url("../images/Dylan.png");
-    background-position: center; }
-  .ponentes .ponente .modal-body {
-    background-size: cover !important;
-    height: 500px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .ponentes .ponente .modal-body .logo-expositor {
-      width: 130px;
-      bottom: 30px;
-      left: 42px; }
-    .ponentes .ponente .modal-body .logo-expositor-derecha {
-      width: 130px;
-      bottom: 30px;
-      right: 42px; }
-    .ponentes .ponente .modal-body .exp-nom {
-      font-size: 28px;
-      color: #000;
-      font-weight: 800;
-      line-height: 40px;
-      text-transform: uppercase; }
-    .ponentes .ponente .modal-body .uppers {
-      background: #000;
-      color: #fff; }
-    .ponentes .ponente .modal-body .info-exp {
-      font-weight: 400;
-      font-size: 11px;
-      max-width: 250px;
-      line-height: 15px; }
+  .ponentes .ponente .pnt-10 {
+    background: url("../images/Ana-Tedx.png"); }
+  .ponentes .ponente .pnt-11 {
+    background: url("../images/Miguel-Angel.png"); }
+  .ponentes .ponente .pnt-12 {
+    background: url("../images/alejandro-tedx.png"); }
+  .ponentes .ponente .pnt-13 {
+    background: url("../images/Mirna-Tedx.png"); }
   .ponentes .ponente h1 {
     font-size: 30px;
     color: #dd0209; }
   .ponentes .ponente span {
     margin-bottom: 10px; }
   .ponentes .ponente .btn {
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     width: 100px;
     background: transparent;
     border-radius: 0;
@@ -257,22 +277,143 @@
     background: #1d100c;
     color: #fff; }
 
-/* CSS PATROCINIOS */
-.patrocinios {
-  height: 700px;
-  background: url("../images/X.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain; }
+.modal-dialog {
+  max-width: 1000px; }
 
+#modalLuis .modal-body {
+  background: url("../images/luis-daniel.png"); }
+
+#modalAyesha .modal-body {
+  background: url("../images/Ayesha.png"); }
+
+#modalKrishna .modal-body {
+  background: url("../images/Krishna.png");
+  background-position-x: right !important; }
+
+#modalHector .modal-body {
+  background: url("../images/Hector-Serrano.png");
+  background-position: center; }
+
+#modalMiguel .modal-body {
+  background: url("../images/Miguel-Angel.png");
+  background-position-x: right !important; }
+
+#modalGerardo .modal-body {
+  background: url("../images/Gerardo-Lopez.png"); }
+
+#modalDylan .modal-body {
+  background: url("../images/Dylan.png");
+  background-position: center; }
+
+#modalMirna .modal-body {
+  background: url("../images/Mirna-Tedx.png");
+  background-position: center; }
+
+#modalAlejandro .modal-body {
+  background: url("../images/alejandro-tedx.png");
+  background-position: center; }
+
+#modalAna .modal-body {
+  background: url("../images/Ana-Tedx.png");
+  background-position: center; }
+
+#modalGilberto .modal-body {
+  background: url("../images/gilberto-tedx.png");
+  background-position: center; }
+
+#modalMaria .modal-body {
+  background: url("../images/stone-tedx.png");
+  background-position: center; }
+
+#modalMariela .modal-body {
+  background: url("../images/mariela-tedx.png");
+  background-position: center; }
+
+.modal-body {
+  background-size: cover !important;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .modal-body .logo-expositor {
+    width: 130px;
+    bottom: 30px;
+    left: 42px; }
+  .modal-body .logo-expositor-derecha {
+    width: 130px;
+    bottom: 30px;
+    right: 42px; }
+  .modal-body .exp-nom {
+    font-size: 28px;
+    color: #000;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase; }
+  .modal-body .uppers {
+    background: #000;
+    color: #fff; }
+  .modal-body .info-exp {
+    font-weight: 400;
+    font-size: 11px;
+    max-width: 250px;
+    line-height: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px; }
+
+/* CSS PATROCINIOS */
 /* RESPONSIVE */
-@media (max-width: 810px) {
-  .navbar .dropdown .dropdown-menu {
-    left: -130px !important; } }
+@media (max-width: 992px) {
+  .organizadores {
+    background-size: cover;
+    background-position: center; } }
 @media (max-width: 768px) {
   .footer p,
   .footer ul {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .ponente.agra h1 {
+    font-size: 20px; }
+  .ponente.agra img {
+    width: 55px; } }
+@media (max-width: 710px) {
+  #modalMirna .modal-body,
+  #modalAlejandro .modal-body,
+  #modalMiguel .modal-body,
+  #modalAna .modal-body,
+  #modalKrishna .modal-body,
+  #modalGilberto .modal-body,
+  #modalDylan .modal-body {
+    background-position-x: -203px !important; }
+
+  #modalHector .modal-body {
+    background-position-x: -95px; }
+
+  #modalGerardo .modal-body,
+  #modalLuis .modal-body {
+    background-position: -445px; }
+
+  #modalMariela .modal-body {
+    background-position: -490px; }
+
+  #modalMaria .modal-body {
+    background-position: -515px; }
+
+  #modalAyesha .modal-body {
+    background-position: -485px; } }
+@media (max-width: 576px) {
+  .redes-org {
+    display: none; }
+
+  .footer.org {
+    display: block; } }
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
     width: 200px; }
@@ -284,6 +425,12 @@
     height: 480px; }
 
   .carousel-header .item-2 {
+    height: 480px; }
+
+  .carousel-header .item-3 {
+    height: 480px; }
+
+  .carousel-header .item-4 {
     height: 480px; }
 
   .cont-car {
@@ -322,7 +469,23 @@
     margin-top: 15px !important; }
 
   .contacto img {
-    width: 250px; } }
+    width: 250px; }
+
+  .cont-car .t-1 {
+    line-height: 56px; }
+
+  .cont-car .t-2 {
+    font-size: 25px; }
+
+  .ponente.agra h1 {
+    font-size: 20px; }
+  .ponente.agra img {
+    width: 40px; } }
+@media (max-width: 380px) {
+  .ponente.agra h1 {
+    font-size: 20px; }
+  .ponente.agra img {
+    width: 37px; } }
 @media (max-width: 340px) {
   .navbar .navbar-brand img {
     width: 150px; } }
