@@ -251,7 +251,7 @@
     background-position: right; }
   .ponentes .ponente .pnt-9 {
     background: url("../images/Gerardo-Lopez.png");
-    background-position: right !important; }
+    background-position: left !important; }
   .ponentes .ponente .pnt-10 {
     background: url("../images/Ana-Tedx.png"); }
   .ponentes .ponente .pnt-11 {
@@ -368,7 +368,6 @@
     border-radius: 10px;
     padding: 10px; }
 
-/* CSS PATROCINIOS */
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .organizadores {
