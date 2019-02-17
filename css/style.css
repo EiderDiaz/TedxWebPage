@@ -139,10 +139,6 @@
 /* CSS ORGANIZADORES */
 .organizadores {
   position: relative;
-  background: url("../images/X.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
   margin-top: 96px; }
   .organizadores .organizador {
     margin-bottom: 50px; }
@@ -415,7 +411,7 @@
     display: block; } }
 @media (max-width: 510px) {
   .navbar .navbar-brand img {
-    width: 200px; }
+    width: 140px; }
 
   .carousel-header {
     height: 480px; }
