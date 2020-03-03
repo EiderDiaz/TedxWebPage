@@ -233,29 +233,29 @@
   .ponentes .ponente .pnt-3 {
     background: url("../images/gilberto-tedx.png"); }
   .ponentes .ponente .pnt-4 {
-    background: url("../images/Hector-Serrano.png"); }
+    background: url("../images/villa-small.png"); }
   .ponentes .ponente .pnt-5 {
-    background: url("../images/stone-tedx.png");
+    background: url("../images/nestor-small.png");
     background-position: right; }
   .ponentes .ponente .pnt-6 {
-    background: url("../images/Krishna.png"); }
+    background: url("../images/ivan-small.png"); }
   .ponentes .ponente .pnt-7 {
-    background: url("../images/luis-daniel.png");
+    background: url("../images/victor-small.png");
     background-position: right !important; }
   .ponentes .ponente .pnt-8 {
-    background: url("../images/mariela-tedx.png");
+    background: url("../images/priscila-small.png");
     background-position: right; }
   .ponentes .ponente .pnt-9 {
-    background: url("../images/Gerardo-Lopez.png");
+    background: url("../images/danielluna-small.png");
     background-position: left !important; }
   .ponentes .ponente .pnt-10 {
-    background: url("../images/Ana-Tedx.png"); }
+    background: url("../images/danielvega-small.png"); }
   .ponentes .ponente .pnt-11 {
-    background: url("../images/Miguel-Angel.png"); }
+    background: url("../images/jacks-small.png"); }
   .ponentes .ponente .pnt-12 {
-    background: url("../images/alejandro-tedx.png"); }
+    background: url("../images/isa-small.png"); }
   .ponentes .ponente .pnt-13 {
-    background: url("../images/Mirna-Tedx.png"); }
+    background: url("../images/enrique-small.png"); }
   .ponentes .ponente h1 {
     font-size: 30px;
     color: #dd0209; }
@@ -275,54 +275,61 @@
 
 .modal-dialog {
   max-width: 1000px; }
+.modal-body{
+  height: 650px!important;
+}
 
-#modalLuis .modal-body {
-  background: url("../images/luis-daniel.png"); }
+#modalVictor .modal-body {
+  background: url("../images/victor.png");
+  background-position-y: center; }
 
 #modalAyesha .modal-body {
   background: url("../images/Ayesha.png"); }
 
-#modalKrishna .modal-body {
-  background: url("../images/Krishna.png");
+#modalIvan .modal-body {
+  background: url("../images/ivan.png");
+  background-position-y: center;
   background-position-x: right !important; }
 
-#modalHector .modal-body {
-  background: url("../images/Hector-Serrano.png");
+#modalJulio .modal-body {
+  background: url("../images/villa.png");
   background-position: center; }
 
-#modalMiguel .modal-body {
-  background: url("../images/Miguel-Angel.png");
+#modalJaque .modal-body {
+  background: url("../images/jacks.jpg");
+  background-position-y: center;
   background-position-x: right !important; }
 
-#modalGerardo .modal-body {
-  background: url("../images/Gerardo-Lopez.png"); }
+#modalDanielL .modal-body {
+  background: url("../images/danielluna.jpg"); }
 
 #modalDylan .modal-body {
   background: url("../images/Dylan.png");
   background-position: center; }
 
-#modalMirna .modal-body {
-  background: url("../images/Mirna-Tedx.png");
+#modalEnrique .modal-body {
+  background: url("../images/enrique.png");
+  background-size: cover;
   background-position: center; }
 
-#modalAlejandro .modal-body {
-  background: url("../images/alejandro-tedx.png");
+#modalIsa .modal-body {
+  background: url("../images/isa.png");
   background-position: center; }
 
-#modalAna .modal-body {
-  background: url("../images/Ana-Tedx.png");
+#modalDaniel .modal-body {
+  background: url("../images/danielvega.jpg");
   background-position: center; }
 
 #modalGilberto .modal-body {
   background: url("../images/gilberto-tedx.png");
   background-position: center; }
 
-#modalMaria .modal-body {
-  background: url("../images/stone-tedx.png");
+#modalNestor .modal-body {
+  background: url("../images/nestor.png");
   background-position: center; }
 
-#modalMariela .modal-body {
-  background: url("../images/mariela-tedx.png");
+#modalCaja .modal-body {
+  background: url("../images/priscila-small.png");
   background-position: center; }
 
 .modal-body {
